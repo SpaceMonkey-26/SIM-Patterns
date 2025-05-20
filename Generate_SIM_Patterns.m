@@ -1,13 +1,4 @@
-%% Generate SIM Patterns
-% Description: This MATLAB program generates the full .repz file needed for
-%     structured illumination microscopy (SIM), for use in MetroCon & 
-%     SIMToolbox. This program assumes you want: patterns with straight
-%     lines, evenly spaced angles, pattern step size of 1 pixel, always
-%     include the 0 degree angle, & 2 millisecond sequence timing 
-%     (including the location of the "48455 2ms 1-bit Balanced.seq3" file).
-
-
-%% Variables to change
+%% Variables to change:
 
 angles = 3;
 phases = 9;
